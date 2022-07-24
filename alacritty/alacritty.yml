@@ -56,7 +56,8 @@ window:
   # Background opacity
   opacity: 0.7
 
-
+  # dynamic_title
+  dynamic_title: false
 
   # Window title
   title: Bara
@@ -87,30 +88,30 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Iosevka
-    style: Light
+    family: Roboto Mono Nerd Font
+    style: Bold
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: Retina
 
   # The bold font face
-  bold:
-    family: Iosevka
-    style: Medium
+  #bold:
+    # family: "Fira Code"
+    # style: Medium
     # family: "Fira Code"
     # family: "Source Code Pro"
 
   # The italic font face
-  italic:
-    family: Iosevka
-    style: "Light Italic"
+  #italic:
+    # family: "Fira Code"
+    # style: "Light Italic"
     # style: "Light Oblique"
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: "Medium Italic"
 
   # Point size of the font
-  size: 12.0
+  size: 11.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -187,7 +188,6 @@ colors:
     magenta: '#ff55ff'
     cyan: '#6ae3fa'
     white: '#ffffff'
-theme: Cobalt-2
 
 mouse:
   # Click settings
@@ -343,4 +343,3 @@ key_bindings:
   - { key: RBracket, mods: Command,       chars: "\x02o"                       }  # select next pane
   - { key: LBracket, mods: Command,       chars: "\x02;"                       }  # select last (previously used) pane
   - { key: F,        mods: Command,       chars: "\x02/"                       }  # search (upwards) (see tmux.conf)
-
