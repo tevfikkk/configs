@@ -60,7 +60,7 @@ window:
   dynamic_title: false
 
   # Window title
-  title: Bara
+  title: Terminal
   # Window class (Linux/BSD only):
   #class:
   # Application instance name
